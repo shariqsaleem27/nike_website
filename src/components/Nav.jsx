@@ -1,5 +1,4 @@
-import {headerLogo} from '../assets/images'f
-
+import {headerLogo} from '../assets/images'
 import {hamburger} from '../assets/icons'
 const Nav = () => {
   return (
@@ -9,7 +8,7 @@ const Nav = () => {
                 <img src={headerLogo} alt="logo" />
             </a>
             <ul className='flex-1 flex justify-center items-center gap-16 max-lg:hidden'>
-
+                
 
             </ul>
         </nav>
